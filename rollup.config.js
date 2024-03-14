@@ -20,7 +20,7 @@ import multiInput from 'rollup-plugin-multi-input';
 export default {
   input: './src/**/*.js',
   output: {
-    dir: '../../../dist/web-components',
+    dir: './dist/',
     format: 'esm',
     sourcemap: true,
   },

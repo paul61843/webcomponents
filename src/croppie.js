@@ -3,7 +3,7 @@ import { LitElement, html } from 'lit'
 import * as Croppie from 'croppie';
 
 import install from '@twind/with-web-components'
-import config from '../../twind.config'
+import config from '../twind.config'
 
 const withTwind = install(config)
 

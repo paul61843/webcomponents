@@ -1,7 +1,7 @@
 import { LitElement, html } from 'lit'
 
 import install from '@twind/with-web-components'
-import config from '../../../twind.config.js'
+import config from '../../twind.config.js'
 
 const withTwind = install(config)
 
